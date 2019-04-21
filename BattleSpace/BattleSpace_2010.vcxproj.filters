@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="MainProc">
+      <UniqueIdentifier>{5c4571e6-6744-4345-8e09-fa47c1f999e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{b4854d5a-4ab9-4887-8249-9e8a748ca5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\MeshManager">
+      <UniqueIdentifier>{320e3b76-2aec-40ef-b3aa-b4238edcebd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\MeshManager\MeshLoader">
+      <UniqueIdentifier>{b89b756b-86a7-432f-94dc-0f1a1f3cd091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\ImageManager">
+      <UniqueIdentifier>{e080e3a2-3e12-47d9-a576-401964b1a3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{2d5ea0b5-0ea4-4aa6-abb9-287452ba71f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\ObjectManager">
+      <UniqueIdentifier>{dcd28b94-6b85-40e4-9a42-bedf3ae0ea35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a6a8397b-3b63-476c-9d93-1739222ea161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\SceneManager">
+      <UniqueIdentifier>{ee076010-371d-4c86-98be-18bcb8e42f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d2ea11c7-5adc-45d4-887e-1dc2597ad361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\IngameScene">
+      <UniqueIdentifier>{c86f7432-125e-4af2-a6c0-59b6877b9033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{415069e3-f686-4db6-80c1-5243f356abb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LoadScene">
+      <UniqueIdentifier>{ef4f823b-59f8-4712-8396-17a3ae600697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Camera">
+      <UniqueIdentifier>{c4470513-9b46-4da0-9899-e77fac0109a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Camera\TsCamera">
+      <UniqueIdentifier>{ef6eb4db-3d6b-4eaf-b929-07ad34a06776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\InputManager">
+      <UniqueIdentifier>{ac684f79-d5c1-4521-9da7-ef741ef5c5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\PlayerArm">
+      <UniqueIdentifier>{c310f005-7586-45c5-8bb9-9c1e783d483c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ground">
+      <UniqueIdentifier>{af7512af-9ea8-4fae-9283-2fc3ee61d21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CharacterAttack">
+      <UniqueIdentifier>{df09b102-c5c6-432b-879c-6ef4c1eb3e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{8f700b24-60cb-4b98-82c7-199f9c31038b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle">
+      <UniqueIdentifier>{b2f8653d-91e7-4ba7-9960-3e28d61ce315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect">
+      <UniqueIdentifier>{f72e0bcf-6958-4f11-a350-0f46b1440e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\CameraManager">
+      <UniqueIdentifier>{f09105dc-567d-4de9-b197-7c22338b62c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{98e3234e-5512-4954-935a-5cf52f91022f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirEnemy1">
+      <UniqueIdentifier>{b8a61681-9707-4ce3-a730-991819f063d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{283ecd4f-fc8d-4ebb-aea5-f96d9953f75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Rock">
+      <UniqueIdentifier>{52a98ad8-4897-4a92-a1f0-7a8d59911ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\DataManager">
+      <UniqueIdentifier>{1394bd76-4893-4076-b762-47292215ee0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainScene">
+      <UniqueIdentifier>{2d664f87-7171-452e-94eb-8823943d46a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI">
+      <UniqueIdentifier>{dcce0930-4343-4307-94ab-b8016c45bf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI\Button">
+      <UniqueIdentifier>{9651a29b-420a-4501-9a45-bb46971f4fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI\ScreenUI">
+      <UniqueIdentifier>{93857319-f4a5-49f1-a4bf-d0d8309c229c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI\PlayerUI">
+      <UniqueIdentifier>{66f53f51-ae1a-4107-8f91-9375769acf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SavePoint">
+      <UniqueIdentifier>{d48a6e08-9525-4ad8-b2e0-8eb2a657a2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectCreator">
+      <UniqueIdentifier>{446ed7b6-b3b5-4fe0-bd21-766c7519d471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\SoundManager">
+      <UniqueIdentifier>{926a5893-07b8-452b-936e-5a0b846f082b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirEnemy2">
+      <UniqueIdentifier>{bfacc1e4-0f5c-49ae-8e28-9e9e2766ddb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Ending">
+      <UniqueIdentifier>{2ed580d4-4b1c-4240-bdf0-3dafd9d8afee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UpgradeExp">
+      <UniqueIdentifier>{f28a91fc-1359-468f-a009-0102265ac054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI\StageClear">
+      <UniqueIdentifier>{f6f7f4a2-3106-4b99-8933-cca8ce5de86b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BattleSpace.cpp" />
+    <ClCompile Include="MainProc.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Singleton\MeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Singleton\MeshManager\MeshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Singleton\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Singleton\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Singleton\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameScene.cpp">
+      <Filter>Scene\IngameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>Scene\LoadScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TsCamera.cpp">
+      <Filter>Object\Camera\TsCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Singleton\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerArm.cpp">
+      <Filter>Object\Player\PlayerArm</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Object\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Singleton\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterAttack.cpp">
+      <Filter>Object\CharacterAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AirEnemy1.cpp">
+      <Filter>Object\Enemy\AirEnemy1</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Object\Enemy\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Singleton\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Object\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenUI.cpp">
+      <Filter>Object\UI\ScreenUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUI.cpp">
+      <Filter>Object\UI\PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint.cpp">
+      <Filter>Object\SavePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCreator.cpp">
+      <Filter>Object\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Singleton\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="AirEnemy2.cpp">
+      <Filter>Object\Enemy\AirEnemy2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>Scene\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeExp.cpp">
+      <Filter>Object\UpgradeExp</Filter>
+    </ClCompile>
+    <ClCompile Include="StageClear.cpp">
+      <Filter>Object\UI\StageClear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="MainProc.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Singleton\MeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader.h">
+      <Filter>Singleton\MeshManager\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Singleton\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Singleton\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Singleton\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameScene.h">
+      <Filter>Scene\IngameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>Scene\LoadScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TsCamera.h">
+      <Filter>Object\Camera\TsCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Singleton\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerArm.h">
+      <Filter>Object\Player\PlayerArm</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Object\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Singleton\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterAttack.h">
+      <Filter>Object\CharacterAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AirEnemy1.h">
+      <Filter>Object\Enemy\AirEnemy1</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Object\Enemy\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Singleton\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Object\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenUI.h">
+      <Filter>Object\UI\ScreenUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>Object\UI\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <Filter>Object\SavePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCreator.h">
+      <Filter>Object\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Singleton\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="AirEnemy2.h">
+      <Filter>Object\Enemy\AirEnemy2</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>Scene\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeExp.h">
+      <Filter>Object\UpgradeExp</Filter>
+    </ClInclude>
+    <ClInclude Include="StageClear.h">
+      <Filter>Object\UI\StageClear</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="BattleSpace.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
